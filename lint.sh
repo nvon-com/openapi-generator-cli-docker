@@ -1,4 +1,4 @@
 #!/bin/bash
 set -eo pipefail
 
-docker run --rm -i hadolint/hadolint < context/Dockerfile
+docker run --rm -i hadolint/hadolint <context/Dockerfile

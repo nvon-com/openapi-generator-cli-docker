@@ -1,10 +1,10 @@
 #!/bin/bash
 set -eo pipefail
 
-scriptDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+scriptDir="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
 if [ -z "${1}" ]; then
-  echo "No label provided. Exiting …" > /dev/stderr
+  echo "No label provided. Exiting …" >/dev/stderr
   exit 1
 fi
 label=${1}
