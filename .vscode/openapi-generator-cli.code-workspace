@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "cSpell.enableFiletypes": ["ruby"],
+    "cSpell.enabled": true,
+    "css.validate": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "git.ignoreLimitWarning": true,
+    "editor.codeActionsOnSave": {
+      "source.addMissingImports": true,
+      "source.organizeImports": true
+    },
+    "files.associations": {
+      "Dockerfile-*": "dockerfile"
+    }
+  }
+}
