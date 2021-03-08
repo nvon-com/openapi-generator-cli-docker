@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "eamodio.gitlens",
+    "exiasr.hadolint",
+    "foxundermoon.shell-format",
+    "DavidAnson.vscode-markdownlint",
+    "yzhang.markdown-all-in-one"
+  ]
+}
